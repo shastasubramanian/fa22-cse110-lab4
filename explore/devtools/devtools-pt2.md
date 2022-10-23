@@ -1,0 +1,2 @@
+1. The bug was that the two integers were string concatenation with the "Sum:" statement. For example, the sum of '10' and '86' was '1086.' 
+2. The bug can be fixed by including the parseInt() method. We are converting the strings to integers so that the sum is calculated correctly using arithmetic. 
